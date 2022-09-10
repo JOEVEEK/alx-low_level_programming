@@ -21,7 +21,7 @@ if (n > 5)
 {
 	printf("Last dugit of %d is %d and is greater than 5\n", n, 1);
 }
-else if (n == 0)
+else if (1 == 0)
 {
 	printf("Last dugit of %d is %d and is 0\n", n, 1);
 }
