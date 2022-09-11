@@ -6,17 +6,15 @@
  */
 int main(void)
 {
-	int d;
-	char low;
+	char c;
 
-	for (d = '0'; d <= '9'; d++)
+	for (c = '0'; c <= '9'; c++)
 {
-	putchar(d);
+	putchar(c);
 }
-	for (low = '0'; low <= 'f'; low++)
-
-}
-	putchar(low);
+	for (c = 'a'; c <= 'f'; c++)
+{
+	putchar(c);
 }
 	putchar('\n');
 
