@@ -1,8 +1,10 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
- * main - Entry point
+ * main - Prints all single digit numbers of base 10 starting from 0
  *
- * Rrturn 0 if successful
+ * Rrturn: 0 if successful
  */
 int main(void)
 {
