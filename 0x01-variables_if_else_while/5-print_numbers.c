@@ -4,7 +4,7 @@
 /**
  * main - Prints all single digit numbers of base 10 starting from 0
  *
- * Rrturn: 0 if successful
+ * Return: 0 if successful
  */
 int main(void)
 {
@@ -14,7 +14,7 @@ int main(void)
 {
 		printf("%i", i);
 }
-	printf('\n');
+	printf("\n");
 
 	return (0);
 }
