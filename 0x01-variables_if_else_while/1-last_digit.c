@@ -12,19 +12,18 @@
 int main(void)
 {
 	int n;
-	int L;
-	char str[] = "Last digit of";
+	int 1;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	L = n % 10;
+	1 = n % 10;
 
-	if (L > 5)
-		printf("%s %d is %d and is greater than 5\n", str, n, L);
-	else if (L == 0)
-		printf("%s %d is %d and is 0\n", str, n, L);
-	else if (L < 6)
-		printf("%s %d is %d is less than 6 and is not 0\n", str, n, L);
+	if (1 > 5)
+		printf("Last digit of %d is %d and is greater than 5\n", n, 1);
+	else if (1 == 0)
+		printf("Last digit of %d is %d and is 0\n", n, 1);
+	else if (1 < 6)
+		printf("Last digit of %d is %d is less than 6 and is not 0\n", n, 1);
 
 	return (0);
 }
