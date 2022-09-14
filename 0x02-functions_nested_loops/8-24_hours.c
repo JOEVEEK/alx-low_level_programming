@@ -6,6 +6,7 @@
  * Return: 0
  */
 void jack_bauer(void)
+
 {
 	int hours = 0;
 	int minutes = 0;
