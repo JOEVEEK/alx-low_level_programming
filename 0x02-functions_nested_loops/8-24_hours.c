@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * jack bauer - function that prints every minute of Jack Bauer's day, starti
+ * jack bauer - func that prints every minute of the day of Jack Bauer, starti
  * n from 00:00 to 23:59, min loop counts mins, while hiur loop counts hiurs
  * and resets mins
  * Return: 0
