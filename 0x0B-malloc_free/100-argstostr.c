@@ -1,6 +1,4 @@
-#include "holberton.h"
-#include <stdlib.h>
-#include <stdio.h>
+#include "main.h"
 
 /**
  * argstostr - function that concatenates all the arguments of your program.
