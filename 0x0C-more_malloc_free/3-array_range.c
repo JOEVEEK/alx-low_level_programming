@@ -3,22 +3,27 @@
 /**
  * array_range - creates an array of integers
  * @min: first integer number
- * @max: second integer number
+ * @max: last integer number
  *
  * Return: pointer to newly allocated memory of NULL if fails
  */
 
 int *array_range(int min, int max)
 {
-	int *arr, i = 0; t = min;
+	int i, t;
+
+	int *a
 
 	if (min > max)
-		return (0);
-	arr = malloc((max - min + 1) * sizeof(int));
+		return (NULL);
 
-	if (!arr)
-		return (0);
-	while (i <= max - min)
-		arr[i++] = t++;
-	return (arr);
+	t = max - min + 1;
+	a = malloc(sizeof(int) * t);
+	if (a == NULL)
+		return (NULL);
+	for (i = 0; i < t; i++, min++)
+	{
+		a[i] = min;
+	}
+	return (a);
 }
