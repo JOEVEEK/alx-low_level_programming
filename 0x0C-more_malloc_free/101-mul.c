@@ -98,7 +98,7 @@ void init(char *str, int l)
 
 	for (i = 0; i < l; i++)
 		str[i] = '0';
-	str[i] = '\0';
+	str[i] = '\0'
 }
 
 /**
@@ -106,7 +106,7 @@ void init(char *str, int l)
  * @argc: number of arguments
  * @argv: argument vector
  *
- * Return: zero, or exit ststus of 98 if failure
+ * Return: zero, or exit status of 98 if failure
  */
 
 int main(int argc, char *argv[])
@@ -149,4 +149,3 @@ int main(int argc, char *argv[])
 	_print(a, ln - 1);
 	return (0);
 }
-
